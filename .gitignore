@@ -1,0 +1,24 @@
+# 루트 레벨 .gitignore
+# Conda 환경
+/env/
+/venv/
+*.pyc
+__pycache__/
+.Python
+.env
+.venv
+
+# 시스템 파일
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 로그 파일
+*.log
+logs/
+npm-debug.log*
+
+# frontend 디렉토리 제외사항은 해당 디렉토리의 .gitignore에서 관리
